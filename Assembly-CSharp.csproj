@@ -47,7 +47,6 @@
      <Compile Include="Assets\Blue Button\Fantasy Buttons\Example\GUIExampleFantasy.cs" />
      <Compile Include="Assets\project\Menu\mainMenu\GUIMenu.cs" />
      <Compile Include="Assets\project\Menu\optionsMenu\GUIMenuOptions.cs" />
-     <None Include="Assets\Blue Button\Fantasy Buttons\Font\Font Readme.txt" />
      <None Include="Assets\project\Menu\Font\Font Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

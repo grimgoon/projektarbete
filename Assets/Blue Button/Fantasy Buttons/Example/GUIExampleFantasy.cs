@@ -5,7 +5,7 @@ public class GUIExampleFantasy : MonoBehaviour
 {
 
     public GUISkin mSkin;
-    //public Rect mWindowRect = new Rect((Screen.width/2)-50, (Screen.height/2), 450, 800);
+    public Rect mWindowRect = new Rect(200, 200, 350, 566);
     public GUIContent mWindowContent;
     public GUIContent mGUIContent;
     public float mSliderValue = 3.0f;
@@ -20,18 +20,12 @@ public class GUIExampleFantasy : MonoBehaviour
         {
             GUI.skin = mSkin;
         }
- //       mWindowRect = GUI.Window(0, mWindowRect, DrawWindow, mWindowContent);
-		
-		GUILayout.BeginArea(new Rect( 0, 0, 200, 200 ));
-        GUILayout.Button("Click me");
-        GUILayout.Button("Or me");
-        GUILayout.EndArea();
+        mWindowRect = GUI.Window(0, mWindowRect, DrawWindow, mWindowContent);
     }
 
 
- /*   void DrawWindow(int windowID)
+    void DrawWindow(int windowID)
     {
-
         mScrollPosition = GUILayout.BeginScrollView(mScrollPosition);
 		//GUILayout.Label("Label");
         GUILayout.Label(mGUIContent);
@@ -49,8 +43,7 @@ public class GUIExampleFantasy : MonoBehaviour
         GUILayout.EndScrollView();
         GUI.DragWindow();
 
-
     }
-*/
+
 
 }

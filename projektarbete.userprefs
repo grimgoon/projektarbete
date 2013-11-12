@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\project\Menu\mainMenu\GUIMenu.cs">
     <Files>
-      <File FileName="Assets\project\Menu\mainMenu\GUIMenu.cs" Line="9" Column="39" />
-      <File FileName="Assets\project\Menu\optionsMenu\GUIMenuOptions.cs" Line="31" Column="1" />
+      <File FileName="Assets\project\Menu\mainMenu\GUIMenu.cs" Line="27" Column="44" />
+      <File FileName="Assets\project\Menu\optionsMenu\GUIMenuOptions.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

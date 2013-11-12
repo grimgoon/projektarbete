@@ -79,8 +79,8 @@
      <Compile Include="Assets\2dactionrpg\Scripts\talkmanager.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\wand.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\yposition.js" />
-     <None Include="Assets\Blue Button\Fantasy Buttons\Font\Font Readme.txt" />
      <None Include="Assets\project\Menu\Font\Font Readme.txt" />
+     <None Include="Assets\Blue Button\Fantasy Buttons\Font\Font Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

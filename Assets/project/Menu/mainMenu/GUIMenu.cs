@@ -18,11 +18,7 @@ public class GUIMenu : MonoBehaviour
             GUI.skin = mSkin;
         }
 		
-		
-		float rx = Screen.width / native_width;
-    	float ry = Screen.height / native_height;
-    	GUI.matrix = Matrix4x4.TRS (Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity, new Vector3 (rx, ry, 1.0f)); 
-		
+
 		GUILayout.BeginArea( new Rect((Screen.width/2)-192, (Screen.height/2)-80, 512, 400)); // Väljer storlek & Position - (X,Y,bredd, höjd);
 			GUILayout.BeginVertical("window"); // Startar en vertikal kontrollgrupp, "Window" avser vilket del av skinet som skall användas för kontrollgruppen
 				buttonPlay = GUILayout.Button("Play"); // Knapp

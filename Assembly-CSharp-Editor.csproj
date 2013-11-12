@@ -45,8 +45,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CreatePlane.cs" />
-     <None Include="Assets\Blue Button\Fantasy Buttons\Font\Font Readme.txt" />
      <None Include="Assets\project\Menu\Font\Font Readme.txt" />
+     <None Include="Assets\Blue Button\Fantasy Buttons\Font\Font Readme.txt" />
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -67,8 +67,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E72E2A6C-0F4D-E6D1-2E42-AB104C0DC82B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
       <Project>{AA40819B-EAFE-7F7B-7BBE-2243E8E1605E}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
