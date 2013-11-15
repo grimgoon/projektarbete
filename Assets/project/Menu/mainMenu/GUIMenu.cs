@@ -8,18 +8,17 @@ public class GUIMenu : MonoBehaviour
 	public bool buttonPlay; // registrerar om knappen "play" blir tryckt vilket ger värdet true som används för att koppla en handling till knappen.
 	public bool buttonOptions; // - || - 
 	public bool buttonExit;  // - || -
-	public float native_width = 1920;
-	public float native_height = 1080;
 	
 	    public void OnGUI()
     {
+		GUI.matrix = GUIGlobals.GetGUIMatrix(); // En matrix som rescalar all GUI för menyn beroende på upplösning genom att använda sig utav GUIGlobals filen.
+		
         if (mSkin != null) // Om inget GUI-Skin är valt så använder det ett default skin som är inbyggt i Unity. 
         {
             GUI.skin = mSkin;
         }
 		
-
-		GUILayout.BeginArea( new Rect((Screen.width/2)-192, (Screen.height/2)-80, 512, 400)); // Väljer storlek & Position - (X,Y,bredd, höjd);
+		GUILayout.BeginArea( new Rect((GUIGlobals.screenWidth/2.7f), (GUIGlobals.screenHeight/2), GUIGlobals.screenWidth * 0.26f, GUIGlobals.screenHeight * 0.37f)); // Väljer storlek & Position - (X,Y,bredd, höjd);
 			GUILayout.BeginVertical("window"); // Startar en vertikal kontrollgrupp, "Window" avser vilket del av skinet som skall användas för kontrollgruppen
 				buttonPlay = GUILayout.Button("Play"); // Knapp
 				GUILayout.FlexibleSpace(); //Flexible space skapar ett mellanrum som är beroende på hur mycket utrymme som finns över utav rektangelen (Rect) som man ritat upp.
@@ -31,7 +30,7 @@ public class GUIMenu : MonoBehaviour
 		
 		
 		if (buttonPlay == true) // Vad som sker om man trycker på knappen button "Play".
-			Application.LoadLevel("Example Scene"); // Skickar en till scenen "playerhouse"
+			Application.LoadLevel("levelSelection"); // Skickar en till scenen "levelSelection"
 		
 		if (buttonOptions == true) // -||-
 			Application.LoadLevel("menuOptions"); // skickar en till scenen "menuOptions"
@@ -40,4 +39,3 @@ public class GUIMenu : MonoBehaviour
 			Application.Quit(); // Stänger av programmet.
     }
 }
-
