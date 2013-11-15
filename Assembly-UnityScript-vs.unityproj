@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -58,11 +58,11 @@
      <Compile Include="Assets\2dactionrpg\Scripts\fader.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\gem.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\heart.js" />
-     <Compile Include="Assets\2dactionrpg\Scripts\inventory (1).js" />
      <Compile Include="Assets\2dactionrpg\Scripts\inventory.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\itemforpurchase.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\loader.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\magic.js" />
+     <Compile Include="Assets\2dactionrpg\Scripts\menu.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\musicmanager.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\npcbehavior.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\npctalk.js" />
@@ -80,7 +80,6 @@
      <Compile Include="Assets\2dactionrpg\Scripts\wand.js" />
      <Compile Include="Assets\2dactionrpg\Scripts\yposition.js" />
      <None Include="Assets\project\Menu\Font\Font Readme.txt" />
-     <None Include="Assets\Blue Button\Fantasy Buttons\Font\Font Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

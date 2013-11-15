@@ -31,7 +31,7 @@ public class GUIMenu : MonoBehaviour
 		
 		
 		if (buttonPlay == true) // Vad som sker om man trycker på knappen button "Play".
-			Application.LoadLevel("playerhouse"); // Skickar en till scenen "playerhouse"
+			Application.LoadLevel("Example Scene"); // Skickar en till scenen "playerhouse"
 		
 		if (buttonOptions == true) // -||-
 			Application.LoadLevel("menuOptions"); // skickar en till scenen "menuOptions"

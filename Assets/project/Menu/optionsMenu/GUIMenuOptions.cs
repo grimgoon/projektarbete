@@ -6,8 +6,6 @@ public class GUIMenuOptions : MonoBehaviour
 
     public GUISkin mSkin; // Används för att lägga till GUI-Skinet "Fantasy Buttons GUI" till prefaben "GUIMenu".
 	public bool buttonBack;  // // registrerar om knappen "Back" blir tryckt vilket ger värdet true som används för att koppla en handling till knappen. 
-	static float WIDTH = 1920;
-	static float Height = 1080;
 	    public void OnGUI()
     {
         if (mSkin != null) // Om inget GUI-Skin är valt så använder det ett default skin som är inbyggt i Unity. 

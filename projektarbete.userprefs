@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\project\Menu\mainMenu\GUIMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\2dactionrpg\Scripts\bow.js">
     <Files>
-      <File FileName="Assets\project\Menu\mainMenu\GUIMenu.cs" Line="27" Column="44" />
-      <File FileName="Assets\project\Menu\optionsMenu\GUIMenuOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets\project\Menu\optionsMenu\GUIMenuOptions.cs" Line="8" Column="151" />
+      <File FileName="Assets\project\Menu\mainMenu\GUIMenu.cs" Line="41" Column="6" />
+      <File FileName="Assets\2dactionrpg\Scripts\bow.js" Line="9" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
