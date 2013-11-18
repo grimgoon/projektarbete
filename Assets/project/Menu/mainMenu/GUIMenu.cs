@@ -30,11 +30,11 @@ public class GUIMenu : MonoBehaviour
 		
 		
 		if (buttonPlay == true) // Vad som sker om man trycker på knappen button "Play".
-			Application.LoadLevel("levelSelection"); // Skickar en till scenen "levelSelection"
+			Application.LoadLevel("test"); // Skickar en till scenen "levelSelection"
 		
 		if (buttonOptions == true) // -||-
 			Application.LoadLevel("menuOptions"); // skickar en till scenen "menuOptions"
-		
+	
 		if (buttonExit == true) // -||-
 			Application.Quit(); // Stänger av programmet.
     }
